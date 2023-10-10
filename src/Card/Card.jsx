@@ -28,7 +28,7 @@ function Card(props) {
           <img
             key={obj.id} // Provide a unique key
             src={imgUrl + obj.backdrop_path}
-            className={props.isSmall? 'p-1 shadow-md w-44 sm:w-52 lg:w-80' :'p-1 shadow-md w-52 sm:w-60 lg:w-96'}
+            className={props.isSmall? 'p-1 shadow-md w-60 sm:w-72 lg:w-80' :'p-1 shadow-md w-72 sm:w-80 lg:w-96'}
             alt={obj.title} 
            
           />
