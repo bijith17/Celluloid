@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    /* FONT FAMILY */
+      @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Fuggles&display=swap');
+    /* FONT FAMILY */
+   
+
+    
+body {
+  margin: 0;padding: 0;
+  
+  background: linear-gradient(#464866,#25274D) fixed ;
+  font-family: 'Comfortaa', cursive;
+/* font-family: 'Fuggles', cursive; */
+}
+body::-webkit-scrollbar{
+  width: 10px;
+  background: linear-gradient(#464866,#25274D);
+}
+.card::-webkit-scrollbar{
+  display: none;
+}
+.movieDetails > h1{
+  text-shadow: 1px 1px 4px  #464866;
+}
