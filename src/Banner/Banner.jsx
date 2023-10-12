@@ -7,7 +7,7 @@ function Banner() {
   useEffect(()=>{
     Axios.get(`trending/all/day?api_key=${API_KEY}`).then((response)=>{
       console.log(response.data.results);
-      setMovie(response.data.results[0])
+      setMovie(response.data.results[7])
     })
   },[])
   return (
